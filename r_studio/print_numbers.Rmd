@@ -1,0 +1,15 @@
+---
+title: "ST2195 Assignment 1 - R Markdown"
+author: "Rupen"
+output: html_document
+---
+
+## Introduction
+This R Markdown file prints all integers from 1 to 10.
+
+## Code
+
+```{r}
+for (i in 1:10) {
+  print(i)
+}
